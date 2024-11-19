@@ -1,0 +1,101 @@
+html,
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: black;
+    height: 100%;
+}
+
+.picture-1 {
+    background-image: url(images/hd-wallpaper-3698073.jpg);
+    min-height: 100%;
+}
+
+.picture-2 {
+    background-image: url(images/sunset-2021266.jpg);
+    min-height: 400px;
+}
+
+.picture-3 {
+    background-image: url(images/field-4452538.jpg);
+    min-height: 400px;
+}
+
+.picture-4 {
+    background-image: url(images/bench-1190768.jpg);
+    min-height: 80%;
+}
+
+.text-in-pic {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 7px;
+    position: relative;
+    top: 350px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.bg-of-text {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    max-width: 30%;
+    position: relative;
+    left: 500px;
+    top: -15px;
+
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#pic2,
+#pic3 {
+    position: relative;
+    top: -190px;
+}
+
+#pic3 {
+    max-width: 40%;
+    position: relative;
+    left: 400px;
+}
+
+#pic4 {
+    position: relative;
+    top: -30px;
+    border: 1px solid white;
+}
+
+.picture-1,
+.picture-2,
+.picture-3,
+.picture-4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+}
+
+.section-dark {
+    background-color: black;
+    color: #f4f4f4;
+}
